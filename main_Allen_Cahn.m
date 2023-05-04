@@ -4,8 +4,10 @@ close all;
 clear
 
 isLoadOffline = 1; % fixing 1 it skips the offline stage loading the precomputed basis
-isLoadOnline = 0; % fixing 1 it gives directly the result
+isLoadOnline = 1; % fixing 1 it gives directly the result
 
+if ~isLoadOnline
+    
 tau = 1e-3; % tolerance for HO-POD-DEIM
 nn = 601; % number of grid points per dimension
 ts = 5; % number of time steps
@@ -67,7 +69,6 @@ matpde.nmax = nmax;
 F = @(u) u - u.^3; % nonlinearity
 
 %% OFFLINE STAGE
-if ~isLoadOnline
 
 if ~isLoadOffline
 
