@@ -10,7 +10,7 @@ if ~isLoadOnline
     
 tau = 1e-3; % tolerance for HO-POD-DEIM
 nn = 601; % number of grid points per dimension
-ts = 5; % number of time steps
+ts = 10; % number of time steps
 umin=-2; umax=0; % minimum and maxumum control
 kappa = 10; % number of singular values considered per snapshot
 nmax = ts;
