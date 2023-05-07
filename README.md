@@ -18,7 +18,6 @@ A multilinear algorithm to approximate the solution of the Hamilton-Jacobi-Bellm
 * `tree_pod_pruning.m` Construction of the tree with geometrical pruning for the vector version for the AD equation.
 * `full_tree_transport_bilinear.m` Computation of the tree structure driven by the reduced dynamics for the AD equation.
 * `tree_bilinear.m` Construction of the tree structure for the vector form for the AD equation.
-* ``
 
 ### ODE solvers
 
