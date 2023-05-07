@@ -1,5 +1,5 @@
 function [norme,lengths,matrix_adiacenza,nodes] = prun_tree_statistical(matpde,F,nodes_flag,lengths_flag,tol_flag)
-% Construction of the tree with the statical pruning criteria
+% Construction of the tree with the statistical pruning criteria
 
 X0 = matpde.X0;
 control = matpde.control;
