@@ -8,7 +8,7 @@ A multilinear algorithm to approximate the solution of the Hamilton-Jacobi-Bellm
 * `main_Allen_Cahn.m` Optimal control of the Allen-Cahn (AC) equation.
 * `main_transport_HO_POD.m` Optimal control of the Advection-Diffusion (AD) equation via HO-POD.
 * `main_transport_POD.m` Optimal control of the Advection-Diffusion (AD) equation via POD.
-* `main_burgers.m` Optimal control of the 3D Burger's equation.
+* `main_burgers.m` Optimal control of the 3D Burgers' equation.
 
 ### Tree construction scripts
 
